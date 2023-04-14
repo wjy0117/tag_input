@@ -138,7 +138,7 @@ li {
 		<span>#</span> <input type="text" id="id_input_tagName"
 			name="input_tagName" onblur="input_blur()"
 			onkeypress="javascript:show_name(event);"> <a
-			href="javascript:del_Click()">x</a>
+			href="javascript:tag_del()">x</a>
 	</div>
 	<span id="warning_msg" style="color: red; display: none">태그는 5개로
 		제한되어 있습니다.</span>
@@ -290,7 +290,7 @@ li {
 
 		//delete만들었다.
 		//지금은 input 옆에 x, 클릭시 뒤에서부터 리스트 삭제.
-		function del_Click() {
+		function tag_del() {
 			var index = (tag_count - 1).toString();
 			//현재 배열 위치와 tag입력 개수 출력
 			console.log("del: " + index + "\t" + tag_count);
