@@ -294,6 +294,7 @@ li {
 			var index = (tag_count - 1).toString();
 			//현재 배열 위치와 tag입력 개수 출력
 			console.log("del: " + index + "\t" + tag_count);
+			//tag_count != 0 체크하려했는데 실수지만 잘 
 			if (tag_list != 0) {
 				tag_list.pop();
 				document.getElementById("list_div" + index).remove();
