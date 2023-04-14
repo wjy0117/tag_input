@@ -182,6 +182,7 @@ li {
 
 		//키 눌렀을때 실행
 		function show_name(e) {
+			//입력한 키 정보 받아오기
 			var code = e.code;
 			//경고문 안보이게
 			document.getElementById("warning_msg").style.disabled = false;
