@@ -305,7 +305,7 @@ li {
 				}
 				document.getElementById("id_input_tagName").disabled = false;
 			} else {
-				console.log("Value already missing in list");
+				console.log("Value already missing in tag list");
 			}
 		}
 	</script>
