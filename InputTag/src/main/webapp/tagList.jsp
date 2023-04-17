@@ -280,7 +280,7 @@ li {
 				/*}else{
 					console.log(b);
 				}*/
-			} else if (tag_count > 4) { //태그 검색 개수가 5개 이상이라면 비활성화
+			} else if (tag_count > 4) { //태그 검색 개수가 6개 이상이라면 비활성화
 				document.getElementById("id_input_tagName").disabled = true;
 				document.getElementById("warning_msg").style.display = "block";
 			} else { //빈 검색어라면 log에 none을 표시하고 추가되는 거 없음.
